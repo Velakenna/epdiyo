@@ -165,22 +165,22 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4db69f4c9edf513e159f9.jpg")
 
-PAUSE_IMG_URL = getenv("PAUSE_IMG_URL", None)
+PAUSE_IMG_URL = getenv("PAUSE_IMG_URL", "https://te.legra.ph/file/4046376cfd8b6df1cc971.jpg")
 
-RESUME_IMG_URL = getenv("RESUME_IMG_URL", None)
+RESUME_IMG_URL = getenv("RESUME_IMG_URL", "https://te.legra.ph/file/7f072e1fd3ac6342b7a2f.jpg")
 
-QUEUE_IMG_URL = getenv("QUEUE_IMG_URL", None)
+QUEUE_IMG_URL = getenv("QUEUE_IMG_URL", "https://te.legra.ph/file/5e12f27d36f305980ff84.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://telegra.ph/file/a071fe51fd785a401dae6.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://telegra.ph//file/f840a2ff4c8292fe60fd2.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -195,12 +195,12 @@ STATS_IMG_URL = getenv(
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Audio.jpeg",
+    "https://telegra.ph/file/66969e848effd83d95c87.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://telegra.ph/file/2d7bd7eeec454d5525677.jpg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -215,7 +215,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    None,
+    "https://te.legra.ph/file/9bb3ec19ee8bf7a66c8cd.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
