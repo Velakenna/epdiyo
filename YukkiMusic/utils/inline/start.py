@@ -66,7 +66,7 @@ def private_panel(_, BOT_USERNAME):
         [                  
             InlineKeyboardButton(
                 #text=_["S_B_7"], user_id=OWNER
-                text=_[S_B_7], url=("https://t.me/TaeDi_3015")
+                text=_["S_B_7"], url=("https://t.me/TaeDi_3015")
             )
         ]
     ]    
